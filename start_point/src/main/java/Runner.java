@@ -44,15 +44,23 @@ public class Runner {
 
         // 3. Add more storage to the computer
 //        <CALL YOUR METHOD HERE>;
+        computer.addStorage(500);
+
         // We use the getter again to check that the amount of storage has been updated
 //        int newStorage = computer.getStorage();
 //        System.out.println("Computer now has " + newStorage + "GB storage");
+        int newStorage = computer.getStorage();
+        System.out.println("Computer now has " + newStorage + "GB storage");
 
         // 4. Use a setter to update the computer's printer property
 //        <CALL YOUR METHOD HERE>
+        computer.setPrinterModel("iDon'tSmellFear");
+
         // Write a getter and use it below to check that the setter worked
 //        String currentPrinter = <GETTER>;
 //        System.out.println("Computer currently has a " + currentPrinter + " printer connected.");
+        String currentPrinter = computer.getPrinterModel();
+        System.out.println("Computer currently has a " + currentPrinter + "printer connected.");
 
         // 5. Write a method to print a message.
         // To test this works *without* a printer too you can comment out the code for question 4

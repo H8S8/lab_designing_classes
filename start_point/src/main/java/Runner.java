@@ -34,7 +34,7 @@ public class Runner {
 
         // 1. Create a new computer object
 //        Computer computer = <INSTANTIATE A NEW COMPUTER OBJECT HERE>
-        Computer computer = new Computer(1000, "iSmellFear");
+        Computer computer = new Computer(1000, null);
 
         // 2. Use a getter to find out how much storage the computer has
 //        int currentStorage = <CALL YOUR METHOD HERE>;
@@ -60,11 +60,16 @@ public class Runner {
 //        String currentPrinter = <GETTER>;
 //        System.out.println("Computer currently has a " + currentPrinter + " printer connected.");
         String currentPrinter = computer.getPrinterModel();
-        System.out.println("Computer currently has a " + currentPrinter + "printer connected.");
+        System.out.println("Computer currently has a " + currentPrinter + " printer connected.");
 
         // 5. Write a method to print a message.
         // To test this works *without* a printer too you can comment out the code for question 4
 //        computer.printMessage("Hello World!");
+        String message = "The printer is connected.";
+        computer.printMessage(message);
+
+
+
     }
 
     public static void shoppingTrolleyDemo(){

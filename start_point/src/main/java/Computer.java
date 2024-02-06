@@ -27,4 +27,11 @@ public class Computer {
     public void addStorage(int additionalStorage){
         this.storage += additionalStorage;
     }
+
+    public void printMessage(String message){
+        if (printerModel != null){
+            System.out.print(message);
+        }
+    }
 }
+

@@ -39,7 +39,7 @@ public class Runner {
         // 2. Use a getter to find out how much storage the computer has
 //        int currentStorage = <CALL YOUR METHOD HERE>;
 //        System.out.println("Computer has " + currentStorage + "GB storage");
-
+        
 
         // 3. Add more storage to the computer
 //        <CALL YOUR METHOD HERE>;

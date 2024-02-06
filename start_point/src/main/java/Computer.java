@@ -15,4 +15,12 @@ public class Computer {
     public void setStorage(double storage) {
         this.storage = storage;
     }
+
+    public String getPrinterModel() {
+        return printerModel;
+    }
+
+    public void setPrinterModel(String printerModel) {
+        this.printerModel = printerModel;
+    }
 }

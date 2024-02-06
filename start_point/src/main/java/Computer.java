@@ -1,18 +1,18 @@
 public class Computer {
 
-    private double storage;
+    private int storage;
     private String printerModel;
 
-    public Computer(double inputStorage, String inputPrinterModel){
+    public Computer(int inputStorage, String inputPrinterModel){
         this.storage = inputStorage;
         this.printerModel = inputPrinterModel;
     }
 
-    public double getStorage() {
+    public int getStorage() {
         return storage;
     }
 
-    public void setStorage(double storage) {
+    public void setStorage(int storage) {
         this.storage = storage;
     }
 

@@ -8,6 +8,11 @@ public class Computer {
         this.printerModel = inputPrinterModel;
     }
 
+    public double getStorage() {
+        return storage;
+    }
 
-
+    public void setStorage(double storage) {
+        this.storage = storage;
+    }
 }

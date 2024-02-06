@@ -16,4 +16,12 @@ public class Rectangle {
         return this.length * this.width;
     }
 
+    public boolean isRectangle(){
+        if(this.length == this.width){
+            return false;
+        }else{
+            return true;
+        }
+    }
+
 }
